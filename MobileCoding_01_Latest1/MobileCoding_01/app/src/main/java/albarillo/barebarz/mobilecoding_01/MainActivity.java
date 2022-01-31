@@ -136,14 +136,14 @@ public class MainActivity extends AppCompatActivity {
  * functionality:
  * - call web service for each load
  *
- * 2. Add functionality so that the user can select from the list and view all posts by that user. In progress
+ * 2. Add functionality so that the user can select from the list and view all posts by that user. Done
  * https://jsonplaceholder.typicode.com/posts?userId={userId} //ID = 2
  * fields needed:
  * - title, body
  * functionality:
  * - all the user to select from the list (#1) and display its posts (title, body)
  *
- * 3. Add functionality so that the user can create a new post by the user they have selected. Pending
+ * 3. Add functionality so that the user can create a new post by the user they have selected. Done
  * https://jsonplaceholder.typicode.com/posts
  * fields needed:
  * - request form body maybe - userid, title, body?
@@ -152,10 +152,10 @@ public class MainActivity extends AppCompatActivity {
  * - mock post?
  *
  *
- * 4. Add functionality so that the user can edit or delete a post (PUT or PATCH, DELETE). Pending
+ * 4. Add functionality so that the user can edit or delete a post (PUT or PATCH, DELETE). Done
  * https://jsonplaceholder.typicode.com/posts/postId
  *
- * 5. Add a functionality to allow the user to sort the list of posts in ascending and descending alphabetical order by title. Pending
+ * 5. Add a functionality to allow the user to sort the list of posts in ascending and descending alphabetical order by title. Done
  * functionality:
  * - inside the popup box? -> Add a functionality to sort alphabetically by title.
  */
